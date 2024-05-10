@@ -76,13 +76,11 @@ const ScrabblePointsCalculator = () => {
       'J': 8, 'X': 8,
       'Q': 10, 'Z': 10
     };
-
-  
-
-    // Convert the letter to uppercase to handle both upper and lowercase letters
+ 
+    
     const upperCaseLetter = letter.toUpperCase();
 
-    // Check if the letter exists in the letter scores mapping
+ 
     if (letterScores.hasOwnProperty(upperCaseLetter)) {
       // Return the score for the letter
       return letterScores[upperCaseLetter];

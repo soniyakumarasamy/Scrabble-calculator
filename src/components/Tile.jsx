@@ -9,10 +9,6 @@ const Tile = ({ letter, onChange }) => {
         onChange(newValue);
       }
     };
-  // Function to calculate the score for the input letter
-
-
-  // Calculate the score for the current letter
  
   return (
     
@@ -21,9 +17,8 @@ const Tile = ({ letter, onChange }) => {
       className="tile"
       value={letter}
       onChange={handleChange}
-      maxLength={1} // Limit input to one character
+      maxLength={1} 
     />
-    
  
   );
 };
